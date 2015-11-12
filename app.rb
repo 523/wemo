@@ -1,11 +1,6 @@
-require "bundler/setup"
 require "sinatra/base"
 require "upnp/ssdp"
-require "net/http"
-require "uri"
 require "active_support/all"
-require "i18n"
-require "pry"
 require_relative "lib/wemo"
 UPnP.log = false
 
